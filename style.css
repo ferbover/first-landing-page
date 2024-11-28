@@ -90,12 +90,55 @@ a {
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
 }
 
+.quote p{
+    color: #1f2937;
+    margin-top: 88px;
+}
+
+.quote h4{
+    text-align: right;
+    margin-bottom: 88px;
+}
 .subscribe {
     display: flex;
     background-color: #3882f6;
+    width: 400px;
+    height: 120px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.subscribe .txt{
+   color: #f9faf8;
+}
+
+.subscribe button{
+    background-color: #3882f6;
+    color: #F9FaF8;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 3px solid #F9FaF8;
+    cursor: pointer; 
+}
+
+.container-s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero img {
@@ -151,4 +194,11 @@ display: flex;
 text-align: center;
 width: 150px;
 
+}
+
+.footer{
+    height: 48px;
+    color: #F9FaF8;
+    justify-content: center;
+    align-items: center;
 }
