@@ -44,12 +44,15 @@ a {
 .header {
     justify-content: space-between;
     align-items: center;
+    padding-top: 8px;
 }
 
-.header-logo {
-    font-size: 24px;
-    font-weight: 900;
-    color: #F9FaF8;
+.header-logo img{
+    display: flex;
+    max-width: 150px;
+    max-height: 50px;
+    object-fit: contain; /* Garante que a proporção da imagem seja mantida*/
+    border-radius: 15px;
 }
 
 .links{
@@ -109,13 +112,16 @@ a {
     display: flex;
     background-color: #3882f6;
     width: 400px;
-    height: 120px;
+    height: auto;
     margin-top: 64px;
     margin-bottom: 64px;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    padding: 8px 176px;
+    
 }
+
 
 .subscribe .txt{
    color: #f9faf8;
@@ -142,7 +148,7 @@ a {
 }
 
 .hero img {
-    height: 230px;
+    height: 260.8px;
     width: 500px;
     margin-top: 8px;
 }
@@ -194,6 +200,11 @@ display: flex;
 text-align: center;
 width: 150px;
 
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .footer{
